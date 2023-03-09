@@ -18,4 +18,3 @@ test('the cart is filled with all instances', () => {
 
   expect(cart.items.length).toBe(3);
 });
-

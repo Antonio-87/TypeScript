@@ -4,6 +4,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
   output: {
+    hashFunction: 'sha256',
     path: path.resolve(__dirname, 'dist'),
   },
   module: {
