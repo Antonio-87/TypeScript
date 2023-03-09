@@ -10,5 +10,6 @@ export default class Movie implements Buyable {
         readonly tagline: string,
         readonly ganre : string,
         readonly time: number,
+        
     ) { }
 }
